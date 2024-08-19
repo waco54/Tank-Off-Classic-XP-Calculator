@@ -1,7 +1,7 @@
 function calculate() {
   let xpNeeded = parseFloat(document.querySelector("#xpNeeded").value);
   let xpPerGame = parseFloat(document.querySelector("#xpPerGame").value);
-  let grindText = document.querySelector("body > h2:nth-child(21) > p");
+  let grindText = document.querySelector("body > p");
   
   let grindTime;
 
