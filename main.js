@@ -5,7 +5,7 @@ function calculate() {
   
   let grindTime;
 
-  const gameTime = 590 / 60; // 590 seconds divided by 60 seconds = minutes
+  const gameTime = 8;
   let numberOfGames = xpNeeded / xpPerGame;
   let timeMinutes = numberOfGames * gameTime;
 
